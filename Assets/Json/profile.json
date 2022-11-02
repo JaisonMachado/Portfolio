@@ -1,0 +1,80 @@
+{
+    "name": "Jaison Machado",
+    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+    "job": "Fiscal de Edificações",
+    "location": "Anápolis-Go",    
+    "email": "jaisonmachado.ans@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Nodejs",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        },
+        {
+          "name": "Java",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        },
+        {
+          "name": "Angular",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        },
+        {
+          "name": "React",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        },
+        {
+          "name": "Mongodb",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        },
+        {
+          "name": "Postgresql",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Liderança",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (básico)",
+      "Espanhol (intermediário)"      
+    ],
+    "portfolio": [
+      {
+        "name": "Trabalhando com Banco de Dados Relacionais (SQL Server), Api, Web Application and Console Application",
+        "url": "https://github.com/JaisonMachado/ProjetoClienteBd_Api_-_Console_-_Web",
+        "github": true
+      },
+      {
+        "name": "Desafio Pottencial - Test Payment Api",
+        "url": "https://github.com/JaisonMachado/tech-test-payment-api-Pottencial",
+        "github": true
+      },
+      {
+        "name": "Desafio Dio - Trilha .Net - Api e EntityFramework",
+        "url": "https://github.com/JaisonMachado/DIO---Trilha-.NET---API-e-Entity-Framework",
+        "github": true
+      },
+      {
+        "name": "Desafio Dio - Trilha .Net - Api",
+        "url": "https://github.com/JaisonMachado/trilha-net-api-desafio",
+        "github": true
+      },
+      {
+        "name": "Desafio Dio - .Net Fundamentos POO",
+        "url": "https://github.com/JaisonMachado/dotNET_DIOBanck",
+        "github": true
+      },
+      {
+        "name": "Desafio Dio - Trilha .Net Azure",
+        "url": "https://github.com/JaisonMachado/trilha-net-azure-desafio",
+        "github": true
+      }
+    ]
+    
+  }
