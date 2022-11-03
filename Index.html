@@ -34,13 +34,13 @@
 <body>
     <main class="main">
         <header class="header">
-            <img class="photo" src="/Assets/Img/my-foto.jpg" alt="foto de Jaison Machado" >
-            <h1 class="title">Olá, <br> sou Jaison Machado</h1>
+            <img class="photo" src="/Assets/Img/my-photo.jpg" alt="Foto de Perfil"  class="photo" id="profile.photo">
+            <h1 class="title">Olá, <br> sou <span id="profile.name">Carregando... </span> </h1>
             <div class="information">
-                <p class="job">Estudante C# .Net Developer</p>
-                <p class="location">Anápolis - Go - Brasil</p>
+                <p class="job"id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="email">
-                    <a href="mailto:jaisonmachado.ans@gmail.com">jaisonmachado.ans@gmail.com</a>
+                    <a href="mailto:jaisonmachado.ans@gmail.com" id="profile.email">@gmail.com</a>
 
                 </p>
                
@@ -56,22 +56,8 @@
                             <h3>
                                 Habilidades Profissionais
                             </h3>
-                            <ul>
-                                <li>
-                                    <img src="/Assets/Img/icons/csharp.svg" alt="c#" title="c#">
-                                </li>
-                                <li>
-                                    <img src="/Assets/Img/icons/dotNet.svg" alt="dotNet" title="dotNet">
-                                </li>
-                                <li>
-                                    <img src="/Assets/Img/icons/js.svg" alt="js" title="JS">
-                                </li>
-                                <li>
-                                    <img src="/Assets/Img/icons/visualStudio.svg" alt="vs" title="VS">
-                                </li>
-                                <li>
-                                    <img src="/Assets/Img/icons/visualCode.svg" alt="vs" title="VS">
-                                </li> 
+                            <ul id="profile.skills.hardskills">
+                                 
                             </ul>
                         </section>
                     </div>
@@ -80,11 +66,11 @@
                             <h3>
                                 Habilidades Pessoais
                             </h3>
-                            <ul>
-                                <li>Liderança</li>
-                                <li>Facilidade de comunicação</li>
-                                <li>Organização</li>
-                                <li>Trabalho em equipe</li>
+                            <ul id="profile.skills.softSkills">
+                                <li>Carregando...</li>
+                                <li>Carregando...</li>
+                                <li>Carregando...</li>
+                                <li>Carregando...</li>
                             </ul>
                         </section>
                     </div>                   
@@ -126,5 +112,7 @@
         </header>
     </main>
     <script src="/Assets/JavaScript/acordeon.js"></script>
+    <script src="/Assets/JavaScript/api.js"></script>
+    <script src="/Assets/JavaScript/main.js"></script>
 </body>
 </html>
