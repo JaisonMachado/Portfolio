@@ -15,7 +15,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("Assets/Img/trespontos.svg");
+    background-image: url("../Img/trespontos.svg");
 }
 
 .header .photo{
