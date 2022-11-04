@@ -9,12 +9,12 @@
       "hardSkills": [
         {
           "name": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/mainAssets/Img/icons/js.svg"
+          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/c4353ee25f35b8bffdbb94d85a4b1097db556e68/Assets/Img/icons/js.svg"
         },
         
         {
           "name": "C#",
-          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/mainAssets/Img/icons/csharp.svg"
+          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/c4353ee25f35b8bffdbb94d85a4b1097db556e68/Assets/Img/icons/csharp.svg"
         },
         {
           "name": ".Net",
