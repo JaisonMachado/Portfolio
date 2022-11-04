@@ -8,24 +8,24 @@
       "hardSkills": [
         {
           "name": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/mainAssets/Img/icons/js.svg"
+          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/main/Assets/Img/icons/js.svg"
         },
         
         {
           "name": "C#",
-          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/mainAssets/Img/icons/csharp.svg"
+          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/main/Assets/Img/icons/csharp.svg"
         },
         {
           "name": ".Net",
-          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/mainAssets/Img/icons/dotNet.svg"
+          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/main/Assets/Img/icons/dotNet.svg"
         },
         {
           "name": "Visual Code",
-          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/mainAssets/Img/icons/visualCode.svg"
+          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/main/Assets/Img/icons/visualCode.svg"
         },
         {
           "name": "Visual Studio",
-          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/8bb40eb291cd102f3f072ee018dbb470b46b4780Assets/Img/icons/visualStudio.svg"
+          "logo": "https://raw.githubusercontent.com/JaisonMachado/Portfolio/8bb40eb291cd102f3f072ee018dbb470b46b4780/Assets/Img/icons/visualStudio.svg"
         }
       ],
       "softSkills": [
