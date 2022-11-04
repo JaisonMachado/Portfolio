@@ -54,13 +54,13 @@
 }
 
 .information .job::before{
-    background-image: url("PortfolioAssets/img/icons/jobBlue.png");
+    background-image: url("../img/icons/jobBlue.png");
 }
 .information .location::before{
-    background-image: url("PortfolioAssets/img/icons/locationBlue.png");
+    background-image: url("../img/icons/locationBlue.png");
 }
 .information .email::before{
-    background-image: url("PortfolioAssets/img/icons/arroba.png");
+    background-image: url("../img/icons/arroba.png");
 }
 
 @media only screen and (min-width:768px){
