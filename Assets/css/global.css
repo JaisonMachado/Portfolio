@@ -27,16 +27,31 @@ a:hover{
 
 .main::after{
     content: '';
-    background-image: url("../Img/background-svg.svg");
+    background-image: url("../Img/backgoundTop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 0;    
+    width: 60vw;
+    height: 50vw;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+.main::before{
+    content: '';
+    background-image: url("../Img/backgoundTop.svg");
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
     position: fixed;
     top: 0;
     left: 0;
-    width: 260vw;
-    height: 250vw;
+    width: 50vw;
+    height: 60vw;
     z-index: -1;
+    
 }
 
 
