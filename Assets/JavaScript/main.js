@@ -89,5 +89,7 @@ function updateFormacaoTecnica(profileData) {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
+    updateFormacaoSuperior(profileData)
+    updateFormacaoTecnica(profileData)
     //updateProfessionalExperience(profileData)
 })()
