@@ -77,6 +77,7 @@ function updateFormacaoTecnica(profileData) {
                 <h3 class="title">${tecnica.Nome}</h3>
                 <p class="period">${tecnica.Data}</p>
                 <p class="period">${tecnica.CargaHoraria}</p>
+                <p class="period">${tecnica.logo}</p>
             </li>
         `
     }).join('')
