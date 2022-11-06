@@ -63,8 +63,7 @@ function updateFormacaoSuperior(profileData) {
     formacaoSuperior.innerHTML = profileData.graduacao.map(graduacao => {
         return `
             <li>
-                <h3 class="title">${graduacao.Bachelor}</h3>
-                <h3 class="title">${graduacao.Phd}</h3>
+                <h3 class="title">${graduacao}</h3>                
             </li>
         `
     }).join('')

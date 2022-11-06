@@ -41,10 +41,10 @@
       "Inglês (básico)",
       "Espanhol (intermediário)"      
     ],
-    "graduacao": [{
-      "Bachelor":"Direito",
-      "Phd":"Especialização em Direito Público"
-    }],
+    "graduacao": [
+      "Bacharelado em Direito",
+      "Especialização em Direito Público"
+    ],
     "tecnica" :[
       {
         "Nome":"Pottencial .Net Developer",
