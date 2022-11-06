@@ -5,7 +5,7 @@
 }
 
 
-.formacaoTecnica .tools ul{
+.formacaoTecnica ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,10 +15,7 @@
     list-style: none;
 }
 
-.formacaoTecnica .tools ul li img{
-    max-width: 50px;
-    margin: 0 .5rem;
-}
+
 
 .graduacao{
     display: flex;

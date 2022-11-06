@@ -63,10 +63,11 @@ function updateFormacaoSuperior(profileData) {
     formacaoSuperior.innerHTML = profileData.graduacao.map(graduacao => `<li>${graduacao}</li>`).join('')
 }
 function updateFormacaoTecnica(profileData) {
-    const formacaoTecnica = document.getElementById('profile.formacaoTecnica')    
+    const formacaoTecnica = document.getElementById('profile.formacaoTecna')    
     formacaoTecnica.innerHTML = profileData.tecnica.map(tecnica =>
         `<li>
-            <img src="${tecnica.logo}" alt="${tecnica.Nome}" title="${tecnica.nome}">
+            <img src="${tecnica.Logo}" alt="${tecnica.Nome}" title="${tecnica.Nome}">
+            <p><h3> ${tecnica.Nome}</h3></p>
             <p >${tecnica.Data}</p>
             <p>${tecnica.CargaHoraria}</p>
         </li>`).join('')
