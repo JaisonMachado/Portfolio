@@ -41,6 +41,24 @@
       "Inglês (básico)",
       "Espanhol (intermediário)"      
     ],
+    "graduacao": [{
+      "Bachelor":"Direito",
+      "Phd":"Especialização em Direito Público"
+    }],
+    "tecnica" :[
+      {
+        "Nome":"Pottencial .Net Developer",
+        "Data":"09/2022" ,
+        "CargaHoraria":"96 hr",
+        "Logo":""
+      },
+      {
+        "Nome":"Foramção .Net Developer Dio",
+        "Data":"09/2022" ,
+        "CargaHoraria":"93 hr"
+      }   
+            
+    ],
     "portfolio": [
       {
         "name": "Trabalhando com Banco de Dados Relacionais (SQL Server), Api, Web Application and Console Application",

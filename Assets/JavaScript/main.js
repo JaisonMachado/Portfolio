@@ -58,6 +58,30 @@ function updateProfessionalExperience(profileData) {
     }).join('')
 }
 
+function updateFormacaoSuperior(profileData) {
+    const formacaoSuperior = document.getElementById('profile.graduation')
+    formacaoSuperior.innerHTML = profileData.graduacao.map(graduacao => {
+        return `
+            <li>
+                <h3 class="title">${graduacao.bachelor}</h3>
+                <p class="period">${graduacao.phd}</p>                
+            </li>
+        `
+    }).join('')
+}
+function updateFormacaoTecnica(profileData) {
+    const formacaoTecnica = document.getElementById('profile.formacaoTecnica')
+    formacaoTecnica.innerHTML = profileData.tecnica.map(graduacao => {
+        return `
+            <li>
+                <h3 class="title">${tecnica.nome}</h3>
+                <p class="period">${tecnica.data}</p>
+                <p class="period">${tecnica.CargaHoraria}</p>
+            </li>
+        `
+    }).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
