@@ -64,7 +64,7 @@ function updateFormacaoSuperior(profileData) {
         return `
             <li>
                 <h3 class="title">${graduacao.Bachelor}</h3>
-                
+                <h3 class="title">${graduacao.Phd}</h3>
             </li>
         `
     }).join('')
