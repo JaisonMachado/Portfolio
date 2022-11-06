@@ -60,7 +60,7 @@ function updateProfessionalExperience(profileData) {
 
 function updateFormacaoSuperior(profileData) {
     const formacaoSuperior = document.getElementById('profile.graduation')
-    formacaoSuperior.graduacao.innerHTML = profileData.graduacao.map(graduacao => `<li>${graduacao}</li>`).join('')
+    formacaoSuperior.graduation.innerHTML = profileData.graduacao.map(graduacao => `<li>${graduacao}</li>`).join('')
 }
 function updateFormacaoTecnica(profileData) {
     const formacaoTecnica = document.getElementById('profile.formacaoTecnica')
