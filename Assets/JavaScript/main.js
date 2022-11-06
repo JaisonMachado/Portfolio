@@ -71,7 +71,7 @@ function updateFormacaoSuperior(profileData) {
 }
 function updateFormacaoTecnica(profileData) {
     const formacaoTecnica = document.getElementById('profile.formacaoTecnica')
-    formacaoTecnica.innerHTML = profileData.tecnica.map(graduacao => {
+    formacaoTecnica.innerHTML = profileData.tecnica.map(tecnica => {
         return `
             <li>
                 <h3 class="title">${tecnica.nome}</h3>
