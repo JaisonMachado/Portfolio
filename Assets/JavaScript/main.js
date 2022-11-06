@@ -60,20 +60,17 @@ function updateProfessionalExperience(profileData) {
 
 function updateFormacaoSuperior(profileData) {
     const formacaoSuperior = document.getElementById('profile.graduation')
-    formacaoSuperior.graduation.innerHTML = profileData.graduacao.map(graduacao => `<li>${graduacao}</li>`).join('')
+    formacaoSuperior.innerHTML = profileData.graduacao.map(graduacao => `<li>${graduacao}</li>`).join('')
 }
 function updateFormacaoTecnica(profileData) {
-    const formacaoTecnica = document.getElementById('profile.formacaoTecnica')
-    formacaoTecnica.innerHTML = profileData.tecnica.map(tecnica => {
-        return `
-            <li>
-                <h3 class="title">${tecnica.Nome}</h3>
-                <p class="period">${tecnica.Data}</p>
-                <p class="period">${tecnica.CargaHoraria}</p>
-                <p class="period">${tecnica.logo}</p>
-            </li>
-        `
-    }).join('')
+    const formacaoTecnica = document.getElementById('profile.formacaoTecnica')    
+    formacaoTecnica.innerHTML = profileData.tecnica.map(tecnica =>
+        `<li>
+            <img src="${tecnica.logo}" alt="${tecnica.Nome}" title="${tecnica.nome}">
+            <p >${tecnica.Data}</p>
+            <p>${tecnica.CargaHoraria}</p>
+        </li>`).join('')
+ 
 }
 
 (async () => {
